@@ -12,19 +12,45 @@ from schemas.python.signals_testing import obd_testrunner
 REPO_ROOT = Path(__file__).parent.parent.absolute()
 
 TEST_CASES = [
-    # TODO: Implement real tests below with vehicle data.
-    # 2019 model year
     {
-        "model_year": "2019",
+        "model_year": "2021",
         "signalset": "default.json",
         "tests": [
-            # # Tire pressures
-            # ("72E05622813028C", {"F150_TP_FL": 32.6}),
-            # ("72E056228140273", {"F150_TP_FR": 31.35}),
-            # ("72E056228150291", {"F150_TP_RRO": 32.85}),
-            # ("72E05622816026E", {"F150_TP_RLO": 31.1}),
-            # ("72E056228170000", {"F150_TP_RRI": 0.0}),
-            # ("72E056228180000", {"F150_TP_RLI": 0.0}),
+            # Tire temperature
+            ("""
+7582A10086210043031
+7582A212F2F00000000
+""", {
+    "RAV4PRIME_TT_1": 8,
+    "RAV4PRIME_TT_2": 9,
+    "RAV4PRIME_TT_3": 7,
+    "RAV4PRIME_TT_4": 7,
+    }),
+            # Tire pressure
+            ("""
+7582A100D62100500A1
+7582A2100B100A400AB
+7582A22000000000000
+""", {
+    "RAV4PRIME_TP_1": 33.333333330303034,
+    "RAV4PRIME_TP_2": 37.21212120909091,
+    "RAV4PRIME_TP_3": 34.060606057575754,
+    "RAV4PRIME_TP_4": 35.75757575454546,
+    }),
+            # Tire position
+            ("""
+7582A10086220210301
+7582A21040200000000
+""", {
+    "RAV4PRIME_TID_1": "RL",
+    "RAV4PRIME_TID_2": "FL",
+    "RAV4PRIME_TID_3": "RR",
+    "RAV4PRIME_TID_4": "FR",
+    }),
+            # Fuel remaining
+            ("7C8056210220B09", {"RAV4PRIME_FLV": 28.25}),
+            # State of charge
+            ("7DA04621F5BA6", {"RAV4PRIME_SOC": 65.09803921568627}),
         ]
     },
 ]
@@ -51,7 +77,8 @@ def test_signals(test_group: Dict[str, Any]):
                 signalset_json,
                 response_hex,
                 expected_values,
-                can_id_format=CANIDFormat.ELEVEN_BIT
+                can_id_format=CANIDFormat.ELEVEN_BIT,
+                extended_addressing_enabled=response_hex.strip().startswith('758')
             )
         except Exception as e:
             pytest.fail(
