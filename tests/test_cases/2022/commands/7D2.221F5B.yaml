@@ -1,0 +1,16 @@
+command_id: 7D2.221F5B
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7DA04621F5BA2
+  expected_values:
+    RAV4PRIME_SOC: 63.52941
+- response: 7DA04621F5BA3
+  expected_values:
+    RAV4PRIME_SOC: 63.92157
+- response: 7DA04621F5BA5
+  expected_values:
+    RAV4PRIME_SOC: 64.70588
+- response: 7DA04621F5BA6
+  expected_values:
+    RAV4PRIME_SOC: 65.09804
