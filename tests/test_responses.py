@@ -2,90 +2,19 @@ import glob
 import os
 import pytest
 from pathlib import Path
-from typing import Dict, Any
 
 # These will be imported from the schemas repository
-from schemas.python.can_frame import CANIDFormat
 from schemas.python.json_formatter import format_file
-from schemas.python.signals_testing import obd_testrunner
+from schemas.python.signals_testing import find_test_yaml_files, register_test_classes
 
 REPO_ROOT = Path(__file__).parent.parent.absolute()
+TEST_CASES_DIR = os.path.join(Path(__file__).parent, 'test_cases')
 
-TEST_CASES = [
-    {
-        "model_year": "2021",
-        "signalset": "default.json",
-        "tests": [
-            # Tire temperature
-            ("""
-7582A10086210043031
-7582A212F2F00000000
-""", {
-    "RAV4PRIME_TT_1": 8,
-    "RAV4PRIME_TT_2": 9,
-    "RAV4PRIME_TT_3": 7,
-    "RAV4PRIME_TT_4": 7,
-    }),
-            # Tire pressure
-            ("""
-7582A100D62100500A1
-7582A2100B100A400AB
-7582A22000000000000
-""", {
-    "RAV4PRIME_TP_1": 33.333333330303034,
-    "RAV4PRIME_TP_2": 37.21212120909091,
-    "RAV4PRIME_TP_3": 34.060606057575754,
-    "RAV4PRIME_TP_4": 35.75757575454546,
-    }),
-            # Tire position
-            ("""
-7582A10086220210301
-7582A21040200000000
-""", {
-    "RAV4PRIME_TID_1": "RL",
-    "RAV4PRIME_TID_2": "FL",
-    "RAV4PRIME_TID_3": "RR",
-    "RAV4PRIME_TID_4": "FR",
-    }),
-            # Fuel remaining
-            ("7C8056210220B09", {"RAV4PRIME_FLV": 28.25}),
-            # State of charge
-            ("7DA04621F5BA6", {"RAV4PRIME_SOC": 65.09803921568627}),
-        ]
-    },
-]
+# Find all test files grouped by model year
+test_files_by_year = find_test_yaml_files(TEST_CASES_DIR)
 
-def load_signalset(filename: str) -> str:
-    """Load a signalset JSON file from the standard location."""
-    signalset_path = REPO_ROOT / "signalsets" / "v3" / filename
-    with open(signalset_path) as f:
-        return f.read()
-
-@pytest.mark.parametrize(
-    "test_group",
-    TEST_CASES,
-    ids=lambda test_case: f"MY{test_case['model_year']}"
-)
-def test_signals(test_group: Dict[str, Any]):
-    """Test signal decoding against known responses."""
-    signalset_json = load_signalset(test_group["signalset"])
-
-    # Run each test case in the group
-    for response_hex, expected_values in test_group["tests"]:
-        try:
-            obd_testrunner(
-                signalset_json,
-                response_hex,
-                expected_values,
-                can_id_format=CANIDFormat.ELEVEN_BIT,
-                extended_addressing_enabled=response_hex.strip().startswith('758')
-            )
-        except Exception as e:
-            pytest.fail(
-                f"Failed on response {response_hex} "
-                f"(Model Year: {test_group['model_year']}, "
-                f"Signalset: {test_group['signalset']}): {e}"
-            )
+# Register test classes dynamically
+register_test_classes(test_files_by_year)
 
 def get_json_files():
     """Get all JSON files from the signalsets/v3 directory."""
@@ -108,4 +37,5 @@ def test_formatting(test_file):
         assert f.read() == formatted
 
 if __name__ == '__main__':
-    pytest.main([__file__])
+    # Use pytest's main function with xdist arguments
+    pytest.main([__file__, '-xvs', '-n', 'auto'])
