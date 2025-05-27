@@ -1,0 +1,10 @@
+command_id: 750.758.222021|e=2A,ta=2A,fc=1
+test_cases:
+- response: |-
+    7582A10086220210301
+    7582A21040200000000
+  expected_values:
+    RAV4PRIME_TID_1: RL
+    RAV4PRIME_TID_2: FL
+    RAV4PRIME_TID_3: RR
+    RAV4PRIME_TID_4: FR
