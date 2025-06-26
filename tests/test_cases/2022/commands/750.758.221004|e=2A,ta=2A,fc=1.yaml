@@ -1,47 +1,47 @@
 command_id: 750.758.221004|e=2A,ta=2A,fc=1
 test_cases:
-- response: |-
-    7582A10086210040030
-    7582A21002F00000000
-  expected_values:
+- expected_values:
     RAV4PRIME_TT_2: 8
     RAV4PRIME_TT_4: 7
-- response: |-
+  response: |-
     7582A10086210040030
-    7582A212E2F00000000
-  expected_values:
+    7582A21002F00000000
+- expected_values:
     RAV4PRIME_TT_2: 8
     RAV4PRIME_TT_3: 6
     RAV4PRIME_TT_4: 7
-- response: |-
-    7582A10086210042F30
-    7582A212E2E00000000
-  expected_values:
+  response: |-
+    7582A10086210040030
+    7582A212E2F00000000
+- expected_values:
     RAV4PRIME_TT_1: 7
     RAV4PRIME_TT_2: 8
     RAV4PRIME_TT_3: 6
     RAV4PRIME_TT_4: 6
-- response: |-
-    7582A10086210043030
-    7582A212E2F00000000
-  expected_values:
+  response: |-
+    7582A10086210042F30
+    7582A212E2E00000000
+- expected_values:
     RAV4PRIME_TT_1: 8
     RAV4PRIME_TT_2: 8
     RAV4PRIME_TT_3: 6
     RAV4PRIME_TT_4: 7
-- response: |-
-    7582A10086210043031
+  response: |-
+    7582A10086210043030
     7582A212E2F00000000
-  expected_values:
+- expected_values:
     RAV4PRIME_TT_1: 8
     RAV4PRIME_TT_2: 9
     RAV4PRIME_TT_3: 6
     RAV4PRIME_TT_4: 7
-- response: |-
+  response: |-
     7582A10086210043031
-    7582A212F2F00000000
-  expected_values:
+    7582A212E2F00000000
+- expected_values:
     RAV4PRIME_TT_1: 8
     RAV4PRIME_TT_2: 9
     RAV4PRIME_TT_3: 7
     RAV4PRIME_TT_4: 7
+  response: |-
+    7582A10086210043031
+    7582A212F2F00000000
