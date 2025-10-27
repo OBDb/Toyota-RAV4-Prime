@@ -1,0 +1,20 @@
+command_id: 7D2.221F5B|fc=1
+test_cases:
+- expected_values:
+    RAV4PRIME_SOC: 68.62745
+  response: 7DA04621F5BAF
+- expected_values:
+    RAV4PRIME_SOC: 69.01961
+  response: 7DA04621F5BB0
+- expected_values:
+    RAV4PRIME_SOC: 69.41176
+  response: 7DA04621F5BB1
+- expected_values:
+    RAV4PRIME_SOC: 69.80392
+  response: 7DA04621F5BB2
+- expected_values:
+    RAV4PRIME_SOC: 70.58824
+  response: 7DA04621F5BB4
+- expected_values:
+    RAV4PRIME_SOC: 70.98039
+  response: 7DA04621F5BB5
