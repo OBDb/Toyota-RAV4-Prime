@@ -1,6 +1,12 @@
 command_id: 7D2.221F5B|fc=1
 test_cases:
 - expected_values:
+    RAV4PRIME_SOC: 30.98039
+  response: '7DA 04 62 1F 5B 4F '
+- expected_values:
+    RAV4PRIME_SOC: 31.37255
+  response: '7DA 04 62 1F 5B 50 '
+- expected_values:
     RAV4PRIME_SOC: 20.78431
   response: 7DA04621F5B35
 - expected_values:
