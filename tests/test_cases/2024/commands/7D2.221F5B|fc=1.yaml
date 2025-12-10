@@ -7,8 +7,8 @@ test_cases:
     RAV4PRIME_SOC: 31.37255
   response: '7DA 04 62 1F 5B 50 '
 - expected_values:
-    RAV4PRIME_SOC: 20.78431
-  response: 7DA04621F5B35
+    RAV4PRIME_SOC: 19.21569
+  response: 7DA04621F5B31
 - expected_values:
     RAV4PRIME_SOC: 90.98039
   response: 7DA04621F5BE8
