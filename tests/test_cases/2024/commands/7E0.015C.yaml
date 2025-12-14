@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     EOT: 3
   response: 7E803415C2B
+- expected_values:
+    EOT: 36
+  response: 7E803415C4C
+- expected_values:
+    EOT: 37
+  response: 7E803415C4D
+- expected_values:
+    EOT: 38
+  response: 7E803415C4E
+- expected_values:
+    EOT: 39
+  response: 7E803415C4F
+- expected_values:
+    EOT: 42
+  response: 7E803415C52
+- expected_values:
+    EOT: 43
+  response: 7E803415C53
+- expected_values:
+    EOT: 44
+  response: 7E803415C54
+- expected_values:
+    EOT: 45
+  response: 7E803415C55
+- expected_values:
+    EOT: 46
+  response: 7E803415C56
