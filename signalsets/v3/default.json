@@ -44,11 +44,11 @@
         }}
     }
   ]},
-{ "hdr": "7C0", "fcm1": true, "cmd": {"22": "1022"}, "freq": 1, "dbgfilter": { "years": [2023], "from": 2025 },
+{ "hdr": "7C0", "fcm1": true, "cmd": {"22": "1022"}, "freq": 1, "dbgfilter": { "years": [2023], "from": 2026 },
   "signals": [
     {"id": "RAV4PRIME_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 655, "div": 100, "nullmax": 655, "unit": "liters" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7D2", "fcm1": true, "cmd": {"22": "1F5B"}, "freq": 1, "dbgfilter": { "years": [2023], "from": 2025 },
+{ "hdr": "7D2", "fcm1": true, "cmd": {"22": "1F5B"}, "freq": 1, "dbgfilter": { "years": [2023], "from": 2026 },
   "signals": [
     {"id": "RAV4PRIME_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
   ]}

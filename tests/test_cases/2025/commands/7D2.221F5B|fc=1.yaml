@@ -1,0 +1,5 @@
+command_id: 7D2.221F5B|fc=1
+test_cases:
+- expected_values:
+    RAV4PRIME_SOC: 44.31373
+  response: 7DA04621F5B71
