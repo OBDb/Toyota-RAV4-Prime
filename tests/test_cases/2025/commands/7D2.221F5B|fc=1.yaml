@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     RAV4PRIME_SOC: 44.31373
   response: 7DA04621F5B71
+- expected_values:
+    RAV4PRIME_SOC: 61.17647
+  response: 7DA04621F5B9C
+- expected_values:
+    RAV4PRIME_SOC: 65.88235
+  response: 7DA04621F5BA8

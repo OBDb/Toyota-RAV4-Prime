@@ -1,8 +1,14 @@
 command_id: 7C0.221022|fc=1
 test_cases:
 - expected_values:
-    RAV4PRIME_FLV: 54.93
-  response: 7C8056210221575
+    RAV4PRIME_FLV: 49.68
+  response: 7C8056210221368
 - expected_values:
-    RAV4PRIME_FLV: 55
-  response: 7C805621022157C
+    RAV4PRIME_FLV: 51.33
+  response: 7C805621022140D
+- expected_values:
+    RAV4PRIME_FLV: 53.03
+  response: 7C80562102214B7
+- expected_values:
+    RAV4PRIME_FLV: 54.71
+  response: 7C805621022155F
