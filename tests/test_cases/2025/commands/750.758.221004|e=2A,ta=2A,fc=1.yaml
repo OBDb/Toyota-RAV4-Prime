@@ -1,0 +1,56 @@
+command_id: 750.758.221004|e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    RAV4PRIME_TT_2: 14
+    RAV4PRIME_TT_4: 9
+  response: |-
+    7582A10086210040036
+    7582A21003100000000
+- expected_values:
+    RAV4PRIME_TT_1: 9
+    RAV4PRIME_TT_2: 14
+    RAV4PRIME_TT_3: 9
+    RAV4PRIME_TT_4: 9
+  response: |-
+    7582A10086210043136
+    7582A21313100000000
+- expected_values:
+    RAV4PRIME_TT_1: 10
+    RAV4PRIME_TT_2: 14
+    RAV4PRIME_TT_3: 9
+    RAV4PRIME_TT_4: 9
+  response: |-
+    7582A10086210043236
+    7582A21313100000000
+- expected_values:
+    RAV4PRIME_TT_1: 10
+    RAV4PRIME_TT_2: 14
+    RAV4PRIME_TT_3: 9
+    RAV4PRIME_TT_4: 10
+  response: |-
+    7582A10086210043236
+    7582A21313200000000
+- expected_values:
+    RAV4PRIME_TT_1: 10
+    RAV4PRIME_TT_2: 14
+    RAV4PRIME_TT_3: 10
+    RAV4PRIME_TT_4: 10
+  response: |-
+    7582A10086210043236
+    7582A21323200000000
+- expected_values:
+    RAV4PRIME_TT_1: 11
+    RAV4PRIME_TT_2: 15
+    RAV4PRIME_TT_3: 11
+    RAV4PRIME_TT_4: 11
+  response: |-
+    7582A10086210043337
+    7582A21333300000000
+- expected_values:
+    RAV4PRIME_TT_1: 11
+    RAV4PRIME_TT_2: 15
+    RAV4PRIME_TT_3: 11
+    RAV4PRIME_TT_4: 12
+  response: |-
+    7582A10086210043337
+    7582A21333400000000
