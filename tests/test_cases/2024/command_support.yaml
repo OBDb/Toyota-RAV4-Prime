@@ -225,6 +225,7 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 014D:MIL_TIME
   - 014E:CLR_TIME
+  - 7E7.7EF.0131
 unsupported_commands_by_ecu:
   "750":
   - 750.758.221004|e=2A,ta=2A,fc=1:RAV4PRIME_TT_1,RAV4PRIME_TT_2,RAV4PRIME_TT_3,RAV4PRIME_TT_4
@@ -347,7 +348,6 @@ unsupported_commands_by_ecu:
   - 7E7.7EF.011F
   - 7E7.7EF.0121
   - 7E7.7EF.0130
-  - 7E7.7EF.0131
   - 7E7.7EF.0141
   - 7E7.7EF.0142
   - 7E7.7EF.014D
