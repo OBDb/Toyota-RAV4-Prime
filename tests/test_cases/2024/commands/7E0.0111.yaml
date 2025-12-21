@@ -18,3 +18,13 @@ test_cases:
 - expected_values:
     TP: 23.52941
   response: 7E80341113C
+- expected_values:
+    TP: 20
+  response: |-
+    7ED03411133
+    7EF03411133
+    7E803411133
+    7EA03411133
+    7EC03411133
+    7EB03411133
+    7EE03411133
