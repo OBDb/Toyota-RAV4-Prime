@@ -175,6 +175,7 @@ supported_commands_by_ecu:
   - 0149:APP_D
   - 014D:MIL_TIME
   - 014E:CLR_TIME
+  - 7E4.7EC.0104
   - 7E4.7EC.010D
   - 7E4.7EC.0111
   "7E5":
@@ -302,7 +303,6 @@ unsupported_commands_by_ecu:
   - 7E3.7EB.015B
   "7E4":
   - 7E4.7EC.0101
-  - 7E4.7EC.0104
   - 7E4.7EC.0105
   - 7E4.7EC.010C
   - 7E4.7EC.011F
