@@ -6,3 +6,13 @@ test_cases:
 - expected_values:
     CLR_DIST: 22345
   response: '7E80441315749'
+- expected_values:
+    CLR_DIST: 2207
+  response: |-
+    7EE0441310894
+    7ED04413108A3
+    7E80441310883
+    7EF0441310883
+    7EA0441310883
+    7EB0441310883
+    7EC044131089F
