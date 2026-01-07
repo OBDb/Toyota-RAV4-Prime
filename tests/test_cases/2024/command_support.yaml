@@ -179,6 +179,7 @@ supported_commands_by_ecu:
   - 014D:MIL_TIME
   - 014E:CLR_TIME
   - 7E4.7EC.0104
+  - 7E4.7EC.0105
   - 7E4.7EC.010D
   - 7E4.7EC.0111
   "7E5":
@@ -234,6 +235,7 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 014D:MIL_TIME
   - 014E:CLR_TIME
+  - 7E7.7EF.0105
   - 7E7.7EF.010D
   - 7E7.7EF.0131
 unsupported_commands_by_ecu:
@@ -303,7 +305,6 @@ unsupported_commands_by_ecu:
   - 7E3.7EB.015B
   "7E4":
   - 7E4.7EC.0101
-  - 7E4.7EC.0105
   - 7E4.7EC.010C
   - 7E4.7EC.011F
   - 7E4.7EC.0121
@@ -342,7 +343,6 @@ unsupported_commands_by_ecu:
   "7E7":
   - 7E7.7EF.0101
   - 7E7.7EF.0104
-  - 7E7.7EF.0105
   - 7E7.7EF.010C
   - 7E7.7EF.0111
   - 7E7.7EF.011F
