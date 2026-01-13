@@ -18,6 +18,7 @@ supported_commands_by_ecu:
   - 7DF.0131
   - 7DF.0134
   - 7DF.0144
+  - 7DF.0146
   - 7DF.015C
   - 7DF.01A6
   "7E0":
@@ -187,9 +188,11 @@ unsupported_commands_by_ecu:
   - 7E0.0106:SHRTFT1
   - 7E0.010D:VSS
   - 7E0.0110:MAF
+  - 7E0.011F:RUNTM
   - 7E0.0131:CLR_DIST
   - 7E0.0134:LAMBDA11_CURRENT,O2S11_CURRENT
   - 7E0.0144:EQ_RAT
+  - 7E0.0146:AAT
   - 7E0.015C:EOT
   - 7E0.7E8.2121
   - 7E0.7E8.2151
@@ -230,7 +233,9 @@ unsupported_commands_by_ecu:
   - 7E4.7EC.0104
   - 7E4.7EC.0105
   - 7E4.7EC.010D
+  - 7E4.7EC.011F
   - 7E4.7EC.0131
+  - 7E4.7EC.0146
   "7E5":
   - 7E5.7ED.0101
   - 7E5.7ED.0104
@@ -249,6 +254,7 @@ unsupported_commands_by_ecu:
   - 7E6.7EE.0105
   - 7E6.7EE.010D
   - 7E6.7EE.0131
+  - 7E6.7EE.0146
   "7E7":
   - 7E7.7EF.0104
   - 7E7.7EF.0105
