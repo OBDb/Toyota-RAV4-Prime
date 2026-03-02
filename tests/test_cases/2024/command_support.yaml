@@ -132,6 +132,7 @@ supported_commands_by_ecu:
   - 0111:TP
   - 011F:RUNTM
   - 7E3.7EB.0105
+  - 7E3.7EB.010C
   - 7E3.7EB.010D
   - 7E3.7EB.0111
   - 7E3.7EB.0131
@@ -236,7 +237,6 @@ unsupported_commands_by_ecu:
   "7E3":
   - 7E3.7EB.0101
   - 7E3.7EB.0104
-  - 7E3.7EB.010C
   - 7E3.7EB.011F
   - 7E3.7EB.0121
   - 7E3.7EB.0130
