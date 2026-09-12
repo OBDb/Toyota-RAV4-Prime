@@ -15,3 +15,12 @@ test_cases:
 - expected_values:
     RAV4PRIME_FLV: 28.27
   response: 7C8056210220B0B
+- expected_values:
+    RAV4PRIME_FLV: 36.62
+  response: 7C8056210220E4E
+- expected_values:
+    RAV4PRIME_FLV: 36.63
+  response: 7C8056210220E4F
+- expected_values:
+    RAV4PRIME_FLV: 36.65
+  response: 7C8056210220E51
