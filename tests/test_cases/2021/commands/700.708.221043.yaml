@@ -1,0 +1,6 @@
+command_id: 700.708.221043
+test_cases:
+- expected_values:
+    RAV4PRIME_EWP_RPM: 150
+    RAV4PRIME_EWP_TARGET_VSS: 0
+  response: '708056210430006'

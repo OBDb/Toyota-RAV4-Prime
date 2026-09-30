@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.22106E|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_AC_POWER_CONS: 1.4
+  response: 7DA0462106E1C

@@ -1,0 +1,5 @@
+command_id: 700.708.221089
+test_cases:
+- expected_values:
+    RAV4PRIME_EXHAUST_VVT_HOLD_LEARN_B1: 51.39784
+  response: '7080562108920E7'

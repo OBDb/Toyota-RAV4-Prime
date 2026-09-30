@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.221002|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_AUX_BAT_V: 12.70752
+  response: 7DA0562100228B0

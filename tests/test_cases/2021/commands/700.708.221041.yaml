@@ -1,0 +1,6 @@
+command_id: 700.708.221041
+test_cases:
+- expected_values:
+    RAV4PRIME_ECT_IGN: 28.125
+    RAV4PRIME_ECT_INIT: 29.375
+  response: 708056210416D6F

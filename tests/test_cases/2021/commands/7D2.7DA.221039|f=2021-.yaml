@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.221039|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_FRONT_REAR_MOTOR_TQ: -28.672
+  response: 7DA07621039270A1000

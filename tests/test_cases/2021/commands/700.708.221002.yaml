@@ -1,0 +1,5 @@
+command_id: 700.708.221002
+test_cases:
+- expected_values:
+    RAV4PRIME_12V_V: 12.8027
+  response: 7080562100228F8
