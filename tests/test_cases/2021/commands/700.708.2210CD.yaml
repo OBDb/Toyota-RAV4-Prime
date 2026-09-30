@@ -1,0 +1,5 @@
+command_id: 700.708.2210CD
+test_cases:
+- expected_values:
+    RAV4PRIME_LFP: 622.6
+  response: 708056210CD9852

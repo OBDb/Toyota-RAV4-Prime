@@ -1,0 +1,5 @@
+command_id: 700.708.221062
+test_cases:
+- expected_values:
+    RAV4PRIME_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.23163
+  response: 7080562106207D4

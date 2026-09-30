@@ -1,0 +1,5 @@
+command_id: 747.74F.220103|fc=1,f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_ODO: 73850
+  response: 74F076201030201207A

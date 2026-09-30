@@ -1,0 +1,5 @@
+command_id: 700.708.22106C
+test_cases:
+- expected_values:
+    RAV4PRIME_DIST_SINCE_BAT_DISC: 5118
+  response: 7080562106C13FE
