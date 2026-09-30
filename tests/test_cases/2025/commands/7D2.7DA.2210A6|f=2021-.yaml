@@ -1,0 +1,6 @@
+command_id: 7D2.7DA.2210A6|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_M_INVRT_MAX_T: 14
+    RAV4PRIME_RM_INVRT_COOL_T: 14
+  response: 7DA066210A6363636

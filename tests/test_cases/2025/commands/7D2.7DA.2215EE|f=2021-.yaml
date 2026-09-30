@@ -1,0 +1,32 @@
+command_id: 7D2.7DA.2215EE|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_12V_V_V2: 11.96274
+  response: 7DA056215EE26B6
+- expected_values:
+    RAV4PRIME_12V_V_V2: 11.96274
+  response: 7DA056215EE26C2
+- expected_values:
+    RAV4PRIME_12V_V_V2: 11.96274
+  response: 7DA056215EE26C4
+- expected_values:
+    RAV4PRIME_12V_V_V2: 11.96274
+  response: 7DA056215EE26D4
+- expected_values:
+    RAV4PRIME_12V_V_V2: 11.96274
+  response: 7DA056215EE26DC
+- expected_values:
+    RAV4PRIME_12V_V_V2: 11.96274
+  response: 7DA056215EE26EA
+- expected_values:
+    RAV4PRIME_12V_V_V2: 11.96274
+  response: 7DA056215EE26EE
+- expected_values:
+    RAV4PRIME_12V_V_V2: 11.96274
+  response: 7DA056215EE26FE
+- expected_values:
+    RAV4PRIME_12V_V_V2: 12.27722
+  response: 7DA056215EE270A
+- expected_values:
+    RAV4PRIME_12V_V_V2: 12.27722
+  response: 7DA056215EE2720

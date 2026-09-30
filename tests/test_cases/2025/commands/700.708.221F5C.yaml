@@ -1,0 +1,5 @@
+command_id: 700.708.221F5C
+test_cases:
+- expected_values:
+    RAV4PRIME_EOT_V2: 38
+  response: 70804621F5C4E

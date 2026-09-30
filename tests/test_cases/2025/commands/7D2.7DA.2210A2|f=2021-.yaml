@@ -1,0 +1,8 @@
+command_id: 7D2.7DA.2210A2|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_RM_TQ: -0.125
+    RAV4PRIME_RM_TQ_REQ: 0
+  response: |-
+    7DA100C6210A2800080
+    7DA210004007FFF0000
