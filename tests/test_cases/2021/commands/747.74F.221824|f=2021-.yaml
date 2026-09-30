@@ -1,0 +1,5 @@
+command_id: 747.74F.221824|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_BAT_HEATER_T: 28
+  response: 74F066218244E77F7

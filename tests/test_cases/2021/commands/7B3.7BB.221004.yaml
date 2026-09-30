@@ -1,0 +1,5 @@
+command_id: 7B3.7BB.221004
+test_cases:
+- expected_values:
+    RAV4PRIME_STEERING_ANGLE: -3
+  response: 7BB06621004FFFE02

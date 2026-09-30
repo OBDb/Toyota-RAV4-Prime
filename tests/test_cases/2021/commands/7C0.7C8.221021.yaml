@@ -1,0 +1,5 @@
+command_id: 7C0.7C8.221021
+test_cases:
+- expected_values:
+    RAV4PRIME_BATTERY_VOLTAGE_7C0: 12.6
+  response: 7C8046210217E

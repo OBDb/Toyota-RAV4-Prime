@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.2215EE|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_12V_V_V2: 12.90618
+  response: 7DA056215EE2936

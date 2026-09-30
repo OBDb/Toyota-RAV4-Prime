@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.221F05|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_COOL_T: 29
+  response: 7DA04621F0545
