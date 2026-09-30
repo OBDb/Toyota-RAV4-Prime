@@ -1,4 +1,4 @@
-command_id: 7D2.221F5B|fc=1
+command_id: 7D2.7DA.221F5B|fc=1,f=2021-
 test_cases:
 - expected_values:
     RAV4PRIME_SOC: 41.96078

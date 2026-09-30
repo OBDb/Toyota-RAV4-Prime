@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.22182A|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_HVBAT_MIN_T: 27
+  response: 7DA0562182A4D00
