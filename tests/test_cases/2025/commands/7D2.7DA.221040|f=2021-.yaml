@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.221040|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_TRANSAXLE_OIL_T: 28
+  response: 7DA06621040C55044
