@@ -1,6 +1,15 @@
 command_id: 750.758.221005|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
+    RAV4PRIME_TP_1: null
+    RAV4PRIME_TP_2: null
+    RAV4PRIME_TP_3: null
+    RAV4PRIME_TP_4: null
+  response: |-
+    7582A100D6210050000
+    7582A21000000000000
+    7582A22000000000000
+- expected_values:
     RAV4PRIME_TP_2: 36.72727
     RAV4PRIME_TP_4: 36
   response: |-
