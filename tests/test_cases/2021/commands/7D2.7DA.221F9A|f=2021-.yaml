@@ -1,6 +1,48 @@
 command_id: 7D2.7DA.221F9A|f=2021-
 test_cases:
 - expected_values:
+    RAV4PRIME_HVBAT_C: 139.5
+    RAV4PRIME_HVBAT_V: 317
+  response: |-
+    7DA1009621F9A0E024F
+    7DA2140057300000000
+- expected_values:
+    RAV4PRIME_HVBAT_C: 220.5
+    RAV4PRIME_HVBAT_V: 319
+  response: |-
+    7DA1009621F9A0E024F
+    7DA21C0089D00000000
+- expected_values:
+    RAV4PRIME_HVBAT_C: 113.6
+    RAV4PRIME_HVBAT_V: 320
+  response: |-
+    7DA1009621F9A0E0250
+    7DA2100047000000000
+- expected_values:
+    RAV4PRIME_HVBAT_C: 75
+    RAV4PRIME_HVBAT_V: 327
+  response: |-
+    7DA1009621F9A0E0251
+    7DA21C002EE00000000
+- expected_values:
+    RAV4PRIME_HVBAT_C: -46.6
+    RAV4PRIME_HVBAT_V: 339
+  response: |-
+    7DA1009621F9A0E0254
+    7DA21C0FE2E00000000
+- expected_values:
+    RAV4PRIME_HVBAT_C: -2.8
+    RAV4PRIME_HVBAT_V: 339
+  response: |-
+    7DA1009621F9A0E0254
+    7DA21C0FFE400000000
+- expected_values:
+    RAV4PRIME_HVBAT_C: 2.9
+    RAV4PRIME_HVBAT_V: 341
+  response: |-
+    7DA1009621F9A0E0255
+    7DA2140001D00000000
+- expected_values:
     RAV4PRIME_HVBAT_C: 6.1
     RAV4PRIME_HVBAT_V: 358
   response: |-
