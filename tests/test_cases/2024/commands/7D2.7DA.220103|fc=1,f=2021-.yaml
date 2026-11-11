@@ -1,0 +1,8 @@
+command_id: 7D2.7DA.220103|fc=1,f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_ODO_V2_V2: 40208
+  response: 7DA0762010301009D10
+- expected_values:
+    RAV4PRIME_ODO_V2_V2: 40220
+  response: 7DA0762010301009D1C

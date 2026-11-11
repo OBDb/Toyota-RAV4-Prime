@@ -1,0 +1,29 @@
+command_id: 700.708.220103
+test_cases:
+- expected_values:
+    RAV4PRIME_ENG_ODO: 40207
+  response: 7080762010301009D0F
+- expected_values:
+    RAV4PRIME_ENG_ODO: 40208
+  response: 7080762010301009D10
+- expected_values:
+    RAV4PRIME_ENG_ODO: 40210
+  response: 7080762010301009D12
+- expected_values:
+    RAV4PRIME_ENG_ODO: 40211
+  response: 7080762010301009D13
+- expected_values:
+    RAV4PRIME_ENG_ODO: 40212
+  response: 7080762010301009D14
+- expected_values:
+    RAV4PRIME_ENG_ODO: 40215
+  response: 7080762010301009D17
+- expected_values:
+    RAV4PRIME_ENG_ODO: 40217
+  response: 7080762010301009D19
+- expected_values:
+    RAV4PRIME_ENG_ODO: 40218
+  response: 7080762010301009D1A
+- expected_values:
+    RAV4PRIME_ENG_ODO: 40220
+  response: 7080762010301009D1C

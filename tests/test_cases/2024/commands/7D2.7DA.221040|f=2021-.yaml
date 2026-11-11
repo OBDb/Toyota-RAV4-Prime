@@ -1,0 +1,26 @@
+command_id: 7D2.7DA.221040|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_TRANSAXLE_OIL_T: 18
+  response: 7DA06621040CF603A
+- expected_values:
+    RAV4PRIME_TRANSAXLE_OIL_T: 16
+  response: 7DA06621040D0C038
+- expected_values:
+    RAV4PRIME_TRANSAXLE_OIL_T: 15
+  response: 7DA06621040D23037
+- expected_values:
+    RAV4PRIME_TRANSAXLE_OIL_T: 12
+  response: 7DA06621040D4A034
+- expected_values:
+    RAV4PRIME_TRANSAXLE_OIL_T: 11
+  response: 7DA06621040D58033
+- expected_values:
+    RAV4PRIME_TRANSAXLE_OIL_T: 10
+  response: 7DA06621040D65032
+- expected_values:
+    RAV4PRIME_TRANSAXLE_OIL_T: 10
+  response: 7DA06621040D6E032
+- expected_values:
+    RAV4PRIME_TRANSAXLE_OIL_T: 9
+  response: 7DA06621040D73031
