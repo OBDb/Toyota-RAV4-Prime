@@ -1,0 +1,42 @@
+command_id: 7D2.7DA.220102|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_KEY_CYCLE: 3831
+  response: |-
+    7DA100A6201020EF700
+    7DA2101E43901000000
+- expected_values:
+    RAV4PRIME_KEY_CYCLE: 3831
+  response: |-
+    7DA100A6201020EF700
+    7DA2103F17801000000
+- expected_values:
+    RAV4PRIME_KEY_CYCLE: 3831
+  response: |-
+    7DA100A6201020EF700
+    7DA2105F57001000000
+- expected_values:
+    RAV4PRIME_KEY_CYCLE: 3831
+  response: |-
+    7DA100A6201020EF700
+    7DA210811A901000000
+- expected_values:
+    RAV4PRIME_KEY_CYCLE: 3831
+  response: |-
+    7DA100A6201020EF700
+    7DA210A4E0401000000
+- expected_values:
+    RAV4PRIME_KEY_CYCLE: 3831
+  response: |-
+    7DA100A6201020EF700
+    7DA210C6CDD01000000
+- expected_values:
+    RAV4PRIME_KEY_CYCLE: 3831
+  response: |-
+    7DA100A6201020EF700
+    7DA210E2A2D01000000
+- expected_values:
+    RAV4PRIME_KEY_CYCLE: 3831
+  response: |-
+    7DA100A6201020EF700
+    7DA2110565601000000

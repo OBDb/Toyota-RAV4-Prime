@@ -1,0 +1,30 @@
+command_id: 7D2.7DA.2210A6|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_M_INVRT_MAX_T: 15
+    RAV4PRIME_RM_INVRT_COOL_T: 5
+  response: 7DA066210A62D2E37
+- expected_values:
+    RAV4PRIME_M_INVRT_MAX_T: 16
+    RAV4PRIME_RM_INVRT_COOL_T: 5
+  response: 7DA066210A62D2E38
+- expected_values:
+    RAV4PRIME_M_INVRT_MAX_T: 14
+    RAV4PRIME_RM_INVRT_COOL_T: 6
+  response: 7DA066210A62E2E36
+- expected_values:
+    RAV4PRIME_M_INVRT_MAX_T: 15
+    RAV4PRIME_RM_INVRT_COOL_T: 6
+  response: 7DA066210A62E2E37
+- expected_values:
+    RAV4PRIME_M_INVRT_MAX_T: 15
+    RAV4PRIME_RM_INVRT_COOL_T: 7
+  response: 7DA066210A62F2E37
+- expected_values:
+    RAV4PRIME_M_INVRT_MAX_T: 16
+    RAV4PRIME_RM_INVRT_COOL_T: 7
+  response: 7DA066210A62F2E38
+- expected_values:
+    RAV4PRIME_M_INVRT_MAX_T: 15
+    RAV4PRIME_RM_INVRT_COOL_T: 8
+  response: 7DA066210A6302E37

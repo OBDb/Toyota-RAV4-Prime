@@ -1,0 +1,20 @@
+command_id: 7D2.7DA.221039|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_FRONT_REAR_MOTOR_TQ: -28.901
+  response: 7DA07621039251F0F1B
+- expected_values:
+    RAV4PRIME_FRONT_REAR_MOTOR_TQ: -28.883
+  response: 7DA07621039251F0F2D
+- expected_values:
+    RAV4PRIME_FRONT_REAR_MOTOR_TQ: -28.866
+  response: 7DA07621039251F0F3E
+- expected_values:
+    RAV4PRIME_FRONT_REAR_MOTOR_TQ: -28.846
+  response: 7DA07621039251F0F52
+- expected_values:
+    RAV4PRIME_FRONT_REAR_MOTOR_TQ: -28.696
+  response: 7DA07621039270A0FE8
+- expected_values:
+    RAV4PRIME_FRONT_REAR_MOTOR_TQ: -28.676
+  response: 7DA07621039270A0FFC

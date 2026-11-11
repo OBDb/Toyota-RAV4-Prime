@@ -1,0 +1,29 @@
+command_id: 700.708.2210CD
+test_cases:
+- expected_values:
+    RAV4PRIME_LFP: 182
+  response: 708056210CD871C
+- expected_values:
+    RAV4PRIME_LFP: 198.3
+  response: 708056210CD87BF
+- expected_values:
+    RAV4PRIME_LFP: 200.3
+  response: 708056210CD87D3
+- expected_values:
+    RAV4PRIME_LFP: 208.1
+  response: 708056210CD8821
+- expected_values:
+    RAV4PRIME_LFP: 221
+  response: 708056210CD88A2
+- expected_values:
+    RAV4PRIME_LFP: 234.7
+  response: 708056210CD892B
+- expected_values:
+    RAV4PRIME_LFP: 250.8
+  response: 708056210CD89CC
+- expected_values:
+    RAV4PRIME_LFP: 275.4
+  response: 708056210CD8AC2
+- expected_values:
+    RAV4PRIME_LFP: 306
+  response: 708056210CD8BF4

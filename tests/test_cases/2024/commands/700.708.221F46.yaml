@@ -1,0 +1,8 @@
+command_id: 700.708.221F46
+test_cases:
+- expected_values:
+    RAV4PRIME_AMBIENT_T: 9
+  response: 70804621F4631
+- expected_values:
+    RAV4PRIME_AMBIENT_T: 10
+  response: 70804621F4632

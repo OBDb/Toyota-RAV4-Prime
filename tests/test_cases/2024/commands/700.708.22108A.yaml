@@ -1,0 +1,6 @@
+command_id: 700.708.22108A
+test_cases:
+- expected_values:
+    RAV4PRIME_VVT_IE_DUTY_RATIO_1: -100.02347
+    RAV4PRIME_VVT_IE_MOTOR_DIRECTION_FORWARD_1: 0
+  response: 7080562108A8000

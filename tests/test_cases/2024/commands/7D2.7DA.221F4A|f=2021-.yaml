@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.221F4A|f=2021-
+test_cases:
+- expected_values:
+    RAV4PRIME_ACC_PEDAL_POS_2: 31.76471
+  response: 7DA04621F4A51
+- expected_values:
+    RAV4PRIME_ACC_PEDAL_POS_2: 39.60784
+  response: 7DA04621F4A65
+- expected_values:
+    RAV4PRIME_ACC_PEDAL_POS_2: 41.96078
+  response: 7DA04621F4A6B
+- expected_values:
+    RAV4PRIME_ACC_PEDAL_POS_2: 42.7451
+  response: 7DA04621F4A6D
